@@ -33,6 +33,7 @@ $f3->route('GET /', function($f3) {
     $f3->set('desserts', getDesserts());
     $f3->set('num', 10);
     $f3->set('preferredCustomer', true);
+//    $f3->set('myPet', new Pet('Fido'));
 
     //load a template
     $template = new Template();

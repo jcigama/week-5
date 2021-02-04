@@ -46,5 +46,8 @@
         </false>
 
     </check>
+    <check if="{{ @preferredCustomer }}">
+        <p>You get a discount! Total: {{ @total * 0.9 }}</p>
+    </check>
 </body>
 </html>
